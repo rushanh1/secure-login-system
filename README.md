@@ -1,31 +1,57 @@
-# 🔐 Secure Login System (Flask)
+## 🔐 Secure Login System (Flask)
 
-A secure authentication system built using Flask that allows users to register, log in, and access protected pages with session-based authentication.
+A secure login system built with Flask that allows users to register, log in, and access protected pages.
 
 ## 🚀 Features
-
-- User registration with validation
-- Secure password hashing (PBKDF2)
-- Login authentication with session management
-- Account lockout after multiple failed attempts
-- Protected routes (Dashboard & Profile)
-- Flash messaging for user feedback
-- Clean UI with reusable templates
+- User registration
+- Secure login system
+- Password hashing
+- Session management
+- Protected routes (dashboard & profile)
+- Flash messages
 
 ## 🛠️ Tech Stack
-
 - Python
 - Flask
 - SQLite
-- HTML / Jinja Templates
-- CSS
+- HTML / CSS
 
-## 🔒 Security Features
+## 🔒 Security
+- Password hashing (PBKDF2)
+- Account lockout protection
+- Secure sessions
+- Input validation
 
-- Password hashing using PBKDF2 (200,000 iterations)
-- Unique salt per user
-- Protection against brute-force attacks (account lockout)
-- Secure session handling
-- Input validation for usernames and passwords
+## ▶️ Run the App
 
-## 📂 Project Structure
+1. Clone the repository:
+git clone https://github.com/rushanhl/secure-login-system.git
+
+2. Create a virtual environment:
+python3 -m venv .venv
+source .venv/bin/activate
+
+3. Install Flask:
+pip install flask
+
+4. Run the app:
+python3 designs.py
+
+5. Open in browser:
+http://127.0.0.1:5000/
+   
+
+---
+
+## 📌 Future Improvements
+
+- Improve UI design (Tailwind CSS)  
+- Add password reset functionality  
+- Add email verification  
+- Deploy the application  
+
+---
+## 👤 Author
+Rushan Heaven  
+Information Science Student @ UMD  
+UI/UX Intern | Aspiring Cybersecurity Professional
