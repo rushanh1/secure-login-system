@@ -1,0 +1,19 @@
+{% extends "base.html" %}
+
+{% block content %}
+<h2>Welcome, {{ username }}!</h2>
+
+<p class="center">This is your profile page.</p>
+
+<div class="center">
+    <a href="{{ url_for('dashboard') }}" style="text-decoration: none;">
+        <button type="button">Go to Dashboard</button>
+    </a>
+</div>
+
+<div class="center">
+    <a href="{{ url_for('logout') }}" style="text-decoration: none;">
+        <button type="button">Logout</button>
+    </a>
+</div>
+{% endblock %}
